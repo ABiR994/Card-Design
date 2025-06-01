@@ -1,0 +1,75 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+    padding: 45px;
+    display: flex;
+}
+
+.card{
+    background-color: white;
+    width: 220px;
+    border: 1px solid rgb(165, 151, 151);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+    padding: 0 0 15px 0;
+    margin: 10px;
+}
+
+.image{
+    padding: 5px;
+}
+
+.image img{
+    border-radius: 10px;
+}
+
+.capsules{
+    padding: 0 34px 0 14px;
+}
+
+.capsules span{
+    border: 1px solid rgb(156, 156, 156);
+    padding: 0px 6px;
+    border-radius: 11px;
+    font-size: 13px;
+}
+
+.content{
+    padding: 7px 13px;
+}
+
+
+.content p{
+    font-size: 14px;
+    color: rgb(165, 151, 151);
+}
+
+.bttn{
+    text-align: center;
+}
+
+.bttn button{
+    padding: 7px 9px;
+    border: none;
+    border-radius: 40px;
+    background-color: #bcfae5;
+    color: rgb(35, 112, 255);
+    text-shadow: 1px 1px 1px rgb(40, 187, 255);
+    font-size: 12px;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+button:hover{
+    background-color: rgb(83, 143, 255);
+    color: #defbff;
+    text-shadow: 1px 1px 1px rgb(119, 119, 119);
+}
